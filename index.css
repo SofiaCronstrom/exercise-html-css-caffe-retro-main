@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Spirax&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+ width: 100vw;
+ height: 4rem;
+ background-color: #25121c;
+ opacity: 0.9;
+ position: fixed;
+ overflow: hidden;
+ top: 0;
+ left: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+header nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+header nav a{
+    color: white;
+    font-family: "Spirax", system-ui;;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
