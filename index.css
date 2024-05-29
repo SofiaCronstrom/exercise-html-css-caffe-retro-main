@@ -43,9 +43,15 @@ background-image: url(./assets/cosy.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 10px solid darkred;
+    /*border-bottom: 15px solid darkred;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+hr{
+    height: 15px;
+    width: 100%;
+    border: none;
+    background-color: darkred;
 }
