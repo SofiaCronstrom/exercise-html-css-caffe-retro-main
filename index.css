@@ -10,7 +10,7 @@ header{
  width: 100vw;
  height: 4rem;
  background-color: #25121c;
- opacity: 0.9;
+ opacity: 0.8;
  position: fixed;
  overflow: hidden;
  top: 0;
@@ -26,7 +26,7 @@ header nav{
 }
 header nav a{
     color: white;
-    font-family: "Spirax", system-ui;;
+    font-family: "Spirax", system-ui;
     text-decoration: none;
     font-size: 2rem;
 }
@@ -43,9 +43,7 @@ background-image: url(./assets/cosy.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    /*border-bottom: 15px solid darkred;*/
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -54,4 +52,52 @@ hr{
     width: 100%;
     border: none;
     background-color: darkred;
+}
+article{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+article h1{
+    font-family: "Spirax", system-ui;
+    color: darkred;
+    font-size: 5rem;
+    padding: 1rem;
+}
+.parag-1, .parag-2{
+    background-color: darkred;
+    color: white;
+    opacity: 0.8;
+    font-family: "Poiret One", sans-serif;
+    font-size: 1.3rem;
+    padding: 1rem;
+    width: 70%;
+    text-align: center;
+}
+.parag-1{
+    /*align-self: flex-start;*/
+    margin-right: auto;
+}
+.parag-2{
+    /*align-self: flex-end;*/
+    margin-left: auto;
+}
+table{
+    background-color: black;
+    opacity: 0.8;
+    padding: 1rem;
+    width: 80%;
+}
+tbody tr td{
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-size: 1.3rem;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
