@@ -24,7 +24,7 @@ header nav{
     display: flex;
     justify-content: space-around;
 }
-header nav a{
+nav a{
     color: white;
     font-family: "Spirax", system-ui;
     text-decoration: none;
@@ -64,7 +64,8 @@ article{
 article h1{
     font-family: "Spirax", system-ui;
     color: darkred;
-    font-size: 5rem;
+    font-size: 7rem;
+    text-shadow: 1px 1px 1px darkred;
     padding: 1rem;
 }
 .parag-1, .parag-2{
@@ -100,4 +101,38 @@ tr{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    header nav {
+        width: 60%;
+    }
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    .sect-hot, .sect-juicy, .sect-cosy{
+        background-position: center;
+    }
+
+    article{
+        width: 90%;
+        gap: 1rem;
+    }
+    article h1{
+        padding: 0;
+    }
+    .parag-1{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .parag-2{
+        display: none;
+    }
+    table{
+        width: 100%
+    }
+    tbody tr td{
+     font-size: 1.3rem;
+    }
 }
